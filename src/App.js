@@ -59,7 +59,7 @@ function App() {
         <motion.h2 whileHover={{ scale: 1.05 }}>Certifications</motion.h2>
         <ul>
           <li>NPTEL – Introduction to Machine Learning</li>
-          <li>Google AI for India Certification</li>
+          <li>GOOGLE FOR DEVELOPERS AI-ML VIRTUAL INTERNSHIP (COHORT – 8)</li>
         </ul>
       </section>
 
