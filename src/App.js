@@ -10,14 +10,14 @@ function App() {
       transition={{ duration: 1 }}
     >
       <header className="header">
-        <motion.h1 initial={{ y: -50 }} animate={{ y: 0 }}>👨‍💻 Asish's Portfolio</motion.h1>
+        <motion.h1 initial={{ y: -50 }} animate={{ y: 0 }}>👨‍💻 Asish Adimulapu</motion.h1>
         <p>AI & ML Enthusiast | Full Stack Developer</p>
       </header>
 
       <section className="section">
         <motion.h2 whileHover={{ scale: 1.05 }}>About Me</motion.h2>
         <p>
-          Hi, I’m <strong>Asish</strong> – a 3rd-year B.Tech AIML student at <strong>Anurag University</strong>. I love building smart and scalable apps using the <strong>MERN stack, Java, and Python</strong>.
+          Hi, I’m <strong>Asish</strong> – a 4th-year B.Tech AIML student at <strong>Anurag University</strong>. I love building smart and scalable apps using the <strong>MERN stack, Java, and Python</strong>.
         </p>
         <p>
           I solve real-world problems with clean code, scalable APIs, and beautiful UI/UX designs.
@@ -61,6 +61,22 @@ function App() {
           <li>NPTEL – Introduction to Machine Learning</li>
           <li>Google AI for India Certification</li>
         </ul>
+      </section>
+
+      {/* 🔗 GitHub & LinkedIn Links Section */}
+      <section className="section">
+        <motion.h2 whileHover={{ scale: 1.05 }}>Connect with Me</motion.h2>
+        <div className="social-links">
+          <a href="https://github.com/asishadimulapu" target="_blank" rel="noopener noreferrer">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" className="icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/asish-adimulapu" target="_blank" rel="noopener noreferrer">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" className="icon" />
+          </a>
+            <a href="mailto:asishdandy87@gmail.com">
+    <img src="/email-in.png" alt="Email" className="icon" />
+  </a>
+        </div>
       </section>
 
       <footer className="footer">
